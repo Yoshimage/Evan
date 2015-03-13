@@ -1,8 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="231" inline="false" x="-157" y="14">
-    <field name="MODE">WHILE</field>
-  </block>
-  <block type="controls_repeat" id="247" inline="true" x="86" y="49">
+  <block type="controls_repeat" id="247" inline="true" x="21" y="-13">
     <value name="TIMES">
       <block type="math_number" id="254">
         <field name="NUM">4</field>
