@@ -1,38 +1,33 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="247" inline="true" x="21" y="-13">
+  <block type="controls_repeat" id="1" inline="true" x="21" y="-13">
     <value name="TIMES">
-      <block type="math_number" id="254">
+      <block type="math_number" id="2">
         <field name="NUM">4</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="controls_repeat" id="53" inline="true">
+      <block type="controls_repeat" id="3" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="105">
-            <field name="NUM">5</field>
+          <block type="math_number" id="22">
+            <field name="NUM">133333</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_forward" id="63"></block>
+          <block type="movement_forward" id="5"></block>
         </statement>
         <next>
-          <block type="controls_repeat" id="123" inline="true">
+          <block type="controls_repeat" id="6" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="173">
-                <field name="NUM">1</field>
+              <block type="math_number" id="7">
+                <field name="NUM">16250</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_right" id="116"></block>
+              <block type="movement_right" id="8"></block>
             </statement>
           </block>
         </next>
       </block>
     </statement>
-    <next>
-      <block type="multimedia_displaybmp" id="144">
-        <field name="BMP">=)</field>
-      </block>
-    </next>
   </block>
 </xml>
